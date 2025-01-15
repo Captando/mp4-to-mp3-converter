@@ -1,0 +1,42 @@
+{
+  "name": "mp4-to-mp3-converter",
+  "version": "1.0.0",
+  "description": "API para conversão de arquivos MP4 para MP3 e download de áudio do YouTube",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "mp4",
+    "mp3",
+    "converter",
+    "ffmpeg",
+    "youtube",
+    "audio",
+    "video",
+    "api"
+  ],
+  "author": {
+    "name": "Captando",
+    "url": "https://github.com/Captando"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Captando/mp4-to-mp3-converter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^5.2.0",
+    "play-dl": "^1.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
